@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# IntelliJ / VSCode
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kafka local data (mounted volumes if any)
+data/
+logs/
+
+# 루트의 임시 로그는 무시하지만 artifacts/ 안의 결과 로그는 추적
+/*.log
+/*.tmp

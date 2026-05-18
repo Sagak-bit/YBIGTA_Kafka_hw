@@ -1,0 +1,7 @@
+실험 결과 산출물을 이 폴더에 저장합니다.
+
+PHASE 2: exp1-alice.log, exp1-bob.log
+PHASE 3: exp2-c1.log, exp2-c2.log, exp2-c3.log
+PHASE 4: exp3-before.txt, exp3-after.txt, exp3-producer.log
+PHASE 5: exp4-acks-all.log, exp4-acks-1.log
+PHASE 6: exp5-offsets.log
