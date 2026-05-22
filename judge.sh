@@ -49,7 +49,7 @@ section "PHASE 1: 클러스터 부트스트랩"
 # 1. 3 brokers running
 running_brokers=$(docker ps --filter "name=kafka-" --filter "status=running" \
   --format '{{.Names}}' 2>/dev/null | grep -E '^kafka-[123]$' | wc -l)
-if [[ "$running_brokers" == "3" ]]; then
+if [[ "$running_brokers" -eq 3 ]]; then
   pass "broker 3개 running"
 else
   fail "broker 3개 running" "현재 $running_brokers 개만 running. docker compose up -d"
@@ -82,7 +82,7 @@ alice_log="${ARTIFACTS_DIR}/exp1-alice.log"
 if [[ -f "$alice_log" ]]; then
   sent_count=$(grep -c "^sent " "$alice_log" 2>/dev/null || echo 0)
   partitions=$(grep -oE "partition=[0-9]+" "$alice_log" 2>/dev/null | sort -u | wc -l)
-  if [[ "$sent_count" -ge 5 ]] && [[ "$partitions" == "1" ]]; then
+  if [[ "$sent_count" -ge 5 ]] && [[ "$partitions" -eq 1 ]]; then
     pass "alice 메시지 5개+ 모두 같은 partition"
   else
     fail "alice 메시지 5개+ 모두 같은 partition" \
@@ -144,7 +144,7 @@ if [[ -f "$before" ]]; then
   bad_lines=$(grep -E "Partition: [0-9]+" "$before" \
                 | grep -vE "Isr: [0-9]+,[0-9]+,[0-9]+" | wc -l)
   partition_lines=$(grep -cE "Partition: [0-9]+" "$before")
-  if [[ "$partition_lines" -ge 3 ]] && [[ "$bad_lines" == "0" ]]; then
+  if [[ "$partition_lines" -ge 3 ]] && [[ "$bad_lines" -eq 0 ]]; then
     pass "kill 전: 모든 파티션 ISR=3"
   else
     fail "kill 전: 모든 파티션 ISR=3" \
