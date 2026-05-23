@@ -1,0 +1,49 @@
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :run
+[producer] bootstrap=localhost:9092,localhost:9094,localhost:9096 topic=failover-demo key=steady count=40 acks=all idempotence=true
+sent topic=failover-demo partition=0 offset=0 key=steady value=msg-0-1779452584315
+sent topic=failover-demo partition=0 offset=1 key=steady value=msg-1-1779452585244
+sent topic=failover-demo partition=0 offset=2 key=steady value=msg-2-1779452585755
+sent topic=failover-demo partition=0 offset=3 key=steady value=msg-3-1779452586264
+sent topic=failover-demo partition=0 offset=4 key=steady value=msg-4-1779452586772
+sent topic=failover-demo partition=0 offset=5 key=steady value=msg-5-1779452587288
+sent topic=failover-demo partition=0 offset=6 key=steady value=msg-6-1779452587821
+sent topic=failover-demo partition=0 offset=7 key=steady value=msg-7-1779452588338
+sent topic=failover-demo partition=0 offset=8 key=steady value=msg-8-1779452588852
+sent topic=failover-demo partition=0 offset=9 key=steady value=msg-9-1779452589362
+sent topic=failover-demo partition=0 offset=10 key=steady value=msg-10-1779452590014
+sent topic=failover-demo partition=0 offset=11 key=steady value=msg-11-1779452590546
+sent topic=failover-demo partition=0 offset=12 key=steady value=msg-12-1779452591349
+sent topic=failover-demo partition=0 offset=13 key=steady value=msg-13-1779452591898
+sent topic=failover-demo partition=0 offset=14 key=steady value=msg-14-1779452592420
+sent topic=failover-demo partition=0 offset=15 key=steady value=msg-15-1779452592990
+sent topic=failover-demo partition=0 offset=16 key=steady value=msg-16-1779452593503
+sent topic=failover-demo partition=0 offset=17 key=steady value=msg-17-1779452594035
+sent topic=failover-demo partition=0 offset=18 key=steady value=msg-18-1779452594545
+sent topic=failover-demo partition=0 offset=19 key=steady value=msg-19-1779452595058
+sent topic=failover-demo partition=0 offset=20 key=steady value=msg-20-1779452595608
+sent topic=failover-demo partition=0 offset=21 key=steady value=msg-21-1779452596129
+sent topic=failover-demo partition=0 offset=22 key=steady value=msg-22-1779452596643
+sent topic=failover-demo partition=0 offset=23 key=steady value=msg-23-1779452597153
+sent topic=failover-demo partition=0 offset=24 key=steady value=msg-24-1779452597675
+sent topic=failover-demo partition=0 offset=25 key=steady value=msg-25-1779452598189
+sent topic=failover-demo partition=0 offset=26 key=steady value=msg-26-1779452598698
+sent topic=failover-demo partition=0 offset=27 key=steady value=msg-27-1779452599211
+sent topic=failover-demo partition=0 offset=28 key=steady value=msg-28-1779452599722
+sent topic=failover-demo partition=0 offset=29 key=steady value=msg-29-1779452600230
+sent topic=failover-demo partition=0 offset=30 key=steady value=msg-30-1779452600741
+sent topic=failover-demo partition=0 offset=31 key=steady value=msg-31-1779452601252
+sent topic=failover-demo partition=0 offset=32 key=steady value=msg-32-1779452601765
+sent topic=failover-demo partition=0 offset=33 key=steady value=msg-33-1779452602329
+sent topic=failover-demo partition=0 offset=34 key=steady value=msg-34-1779452602923
+sent topic=failover-demo partition=0 offset=35 key=steady value=msg-35-1779452603435
+sent topic=failover-demo partition=0 offset=36 key=steady value=msg-36-1779452603948
+sent topic=failover-demo partition=0 offset=37 key=steady value=msg-37-1779452604458
+sent topic=failover-demo partition=0 offset=38 key=steady value=msg-38-1779452605013
+sent topic=failover-demo partition=0 offset=39 key=steady value=msg-39-1779452605528
+
+BUILD SUCCESSFUL in 24s
+2 actionable tasks: 1 executed, 1 up-to-date

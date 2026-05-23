@@ -1,0 +1,12 @@
+Starting a Gradle Daemon, 1 busy and 2 incompatible Daemons could not be reused, use --status for details
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :run
+[consumer] bootstrap=localhost:9092,localhost:9094,localhost:9096 topic=cg-demo group=g1 clientId=consumer-1779451434868 offsetReset=earliest
+REBALANCE [consumer-1779451434868] assigned = []
+REBALANCE [consumer-1779451434868] assigned = [cg-demo-2]
+REBALANCE [consumer-1779451434868] assigned = []
+REBALANCE [consumer-1779451434868] assigned = []
+REBALANCE [consumer-1779451434868] assigned = [cg-demo-0]
