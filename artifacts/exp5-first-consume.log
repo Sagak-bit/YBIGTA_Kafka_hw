@@ -1,0 +1,13 @@
+[consumer] bootstrap=kafka-1:19092,kafka-2:19092,kafka-3:19092 topic=offset-demo group=g-earliest clientId=offset-c1 offsetReset=earliest
+REBALANCE [offset-c1] assigned = [offset-demo-0]
+recv group=g-earliest client=offset-c1 partition=0 offset=0 key=init value=msg-0-1779672118488
+recv group=g-earliest client=offset-c1 partition=0 offset=1 key=init value=msg-1-1779672118740
+recv group=g-earliest client=offset-c1 partition=0 offset=2 key=init value=msg-2-1779672118846
+recv group=g-earliest client=offset-c1 partition=0 offset=3 key=init value=msg-3-1779672118952
+recv group=g-earliest client=offset-c1 partition=0 offset=4 key=init value=msg-4-1779672119060
+recv group=g-earliest client=offset-c1 partition=0 offset=5 key=init value=msg-5-1779672119166
+recv group=g-earliest client=offset-c1 partition=0 offset=6 key=init value=msg-6-1779672119281
+recv group=g-earliest client=offset-c1 partition=0 offset=7 key=init value=msg-7-1779672119392
+recv group=g-earliest client=offset-c1 partition=0 offset=8 key=init value=msg-8-1779672119501
+recv group=g-earliest client=offset-c1 partition=0 offset=9 key=init value=msg-9-1779672119611
+[consumer] shutting down...

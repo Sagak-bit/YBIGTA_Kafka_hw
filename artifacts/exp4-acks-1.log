@@ -1,0 +1,6 @@
+[producer] bootstrap=kafka-1:19092,kafka-2:19092,kafka-3:19092 topic=safety-demo key=k1 count=3 acks=1 idempotence=false
+[main] WARN org.apache.kafka.clients.ClientUtils - Couldn't resolve server kafka-2:19092 from bootstrap.servers as DNS resolution failed for kafka-2
+[main] WARN org.apache.kafka.clients.ClientUtils - Couldn't resolve server kafka-3:19092 from bootstrap.servers as DNS resolution failed for kafka-3
+sent topic=safety-demo partition=0 offset=3 key=k1 value=msg-0-1779672066555
+sent topic=safety-demo partition=0 offset=4 key=k1 value=msg-1-1779672066767
+sent topic=safety-demo partition=0 offset=5 key=k1 value=msg-2-1779672066870

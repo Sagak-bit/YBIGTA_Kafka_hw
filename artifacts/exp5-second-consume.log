@@ -1,0 +1,3 @@
+[consumer] bootstrap=kafka-1:19092,kafka-2:19092,kafka-3:19092 topic=offset-demo group=g-earliest clientId=offset-c2 offsetReset=earliest
+REBALANCE [offset-c2] assigned = [offset-demo-0]
+[consumer] shutting down...
