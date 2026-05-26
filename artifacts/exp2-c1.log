@@ -1,0 +1,45 @@
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :run
+[consumer] bootstrap=localhost:9092,localhost:9094,localhost:9096 topic=cg-demo group=g1 clientId=consumer-1779768906285 offsetReset=earliest
+REBALANCE [consumer-1779768906285] assigned = [cg-demo-0, cg-demo-1, cg-demo-2]
+recv group=g1 client=consumer-1779768906285 partition=1 offset=0 key=seed value=msg-0-1779768882684
+recv group=g1 client=consumer-1779768906285 partition=1 offset=1 key=seed value=msg-1-1779768883604
+recv group=g1 client=consumer-1779768906285 partition=1 offset=2 key=seed value=msg-2-1779768883716
+recv group=g1 client=consumer-1779768906285 partition=1 offset=3 key=seed value=msg-3-1779768883830
+recv group=g1 client=consumer-1779768906285 partition=1 offset=4 key=seed value=msg-4-1779768883941
+recv group=g1 client=consumer-1779768906285 partition=1 offset=5 key=seed value=msg-5-1779768884054
+recv group=g1 client=consumer-1779768906285 partition=1 offset=6 key=seed value=msg-6-1779768884164
+recv group=g1 client=consumer-1779768906285 partition=1 offset=7 key=seed value=msg-7-1779768884277
+recv group=g1 client=consumer-1779768906285 partition=1 offset=8 key=seed value=msg-8-1779768884390
+recv group=g1 client=consumer-1779768906285 partition=1 offset=9 key=seed value=msg-9-1779768884504
+recv group=g1 client=consumer-1779768906285 partition=1 offset=10 key=seed value=msg-10-1779768884616
+recv group=g1 client=consumer-1779768906285 partition=1 offset=11 key=seed value=msg-11-1779768884728
+recv group=g1 client=consumer-1779768906285 partition=1 offset=12 key=seed value=msg-12-1779768884838
+recv group=g1 client=consumer-1779768906285 partition=1 offset=13 key=seed value=msg-13-1779768884951
+recv group=g1 client=consumer-1779768906285 partition=1 offset=14 key=seed value=msg-14-1779768885065
+recv group=g1 client=consumer-1779768906285 partition=1 offset=15 key=seed value=msg-15-1779768885180
+recv group=g1 client=consumer-1779768906285 partition=1 offset=16 key=seed value=msg-16-1779768885293
+recv group=g1 client=consumer-1779768906285 partition=1 offset=17 key=seed value=msg-17-1779768885408
+recv group=g1 client=consumer-1779768906285 partition=1 offset=18 key=seed value=msg-18-1779768885519
+recv group=g1 client=consumer-1779768906285 partition=1 offset=19 key=seed value=msg-19-1779768885632
+recv group=g1 client=consumer-1779768906285 partition=1 offset=20 key=seed value=msg-20-1779768885745
+recv group=g1 client=consumer-1779768906285 partition=1 offset=21 key=seed value=msg-21-1779768885858
+recv group=g1 client=consumer-1779768906285 partition=1 offset=22 key=seed value=msg-22-1779768885972
+recv group=g1 client=consumer-1779768906285 partition=1 offset=23 key=seed value=msg-23-1779768886083
+recv group=g1 client=consumer-1779768906285 partition=1 offset=24 key=seed value=msg-24-1779768886196
+recv group=g1 client=consumer-1779768906285 partition=1 offset=25 key=seed value=msg-25-1779768886314
+recv group=g1 client=consumer-1779768906285 partition=1 offset=26 key=seed value=msg-26-1779768886431
+recv group=g1 client=consumer-1779768906285 partition=1 offset=27 key=seed value=msg-27-1779768886542
+recv group=g1 client=consumer-1779768906285 partition=1 offset=28 key=seed value=msg-28-1779768886657
+recv group=g1 client=consumer-1779768906285 partition=1 offset=29 key=seed value=msg-29-1779768886772
+REBALANCE [consumer-1779768906285] revoked  = [cg-demo-1, cg-demo-2]
+REBALANCE [consumer-1779768906285] assigned = []
+REBALANCE [consumer-1779768906285] assigned = []
+REBALANCE [consumer-1779768906285] assigned = [cg-demo-2]
+REBALANCE [consumer-1779768906285] revoked  = [cg-demo-0, cg-demo-2]
+REBALANCE [consumer-1779768906285] assigned = [cg-demo-0, cg-demo-2]
+REBALANCE [consumer-1779768906285] revoked  = [cg-demo-0, cg-demo-2]
+REBALANCE [consumer-1779768906285] assigned = [cg-demo-0, cg-demo-2]
