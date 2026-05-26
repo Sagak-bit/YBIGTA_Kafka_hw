@@ -1,0 +1,14 @@
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :run
+[producer] bootstrap=localhost:9092,localhost:9094,localhost:9096 topic=partitioning-demo key=bob count=5 acks=all idempotence=true
+sent topic=partitioning-demo partition=0 offset=5 key=bob value=msg-0-1779759554897
+sent topic=partitioning-demo partition=0 offset=6 key=bob value=msg-1-1779759555165
+sent topic=partitioning-demo partition=0 offset=7 key=bob value=msg-2-1779759555273
+sent topic=partitioning-demo partition=0 offset=8 key=bob value=msg-3-1779759555384
+sent topic=partitioning-demo partition=0 offset=9 key=bob value=msg-4-1779759555492
+
+BUILD SUCCESSFUL in 1s
+2 actionable tasks: 1 executed, 1 up-to-date
