@@ -1,0 +1,38 @@
+[consumer] bootstrap=kafka-1:19092,kafka-2:19092,kafka-3:19092 topic=cg-demo group=g1 clientId=consumer-c1 offsetReset=earliest
+REBALANCE [consumer-c1] assigned = [cg-demo-0, cg-demo-1, cg-demo-2]
+recv group=g1 client=consumer-c1 partition=1 offset=0 key=seed value=msg-0-1779671716432
+recv group=g1 client=consumer-c1 partition=1 offset=1 key=seed value=msg-1-1779671716666
+recv group=g1 client=consumer-c1 partition=1 offset=2 key=seed value=msg-2-1779671716776
+recv group=g1 client=consumer-c1 partition=1 offset=3 key=seed value=msg-3-1779671716881
+recv group=g1 client=consumer-c1 partition=1 offset=4 key=seed value=msg-4-1779671716993
+recv group=g1 client=consumer-c1 partition=1 offset=5 key=seed value=msg-5-1779671717103
+recv group=g1 client=consumer-c1 partition=1 offset=6 key=seed value=msg-6-1779671717217
+recv group=g1 client=consumer-c1 partition=1 offset=7 key=seed value=msg-7-1779671717327
+recv group=g1 client=consumer-c1 partition=1 offset=8 key=seed value=msg-8-1779671717434
+recv group=g1 client=consumer-c1 partition=1 offset=9 key=seed value=msg-9-1779671717545
+recv group=g1 client=consumer-c1 partition=1 offset=10 key=seed value=msg-10-1779671717655
+recv group=g1 client=consumer-c1 partition=1 offset=11 key=seed value=msg-11-1779671717766
+recv group=g1 client=consumer-c1 partition=1 offset=12 key=seed value=msg-12-1779671717880
+recv group=g1 client=consumer-c1 partition=1 offset=13 key=seed value=msg-13-1779671717991
+recv group=g1 client=consumer-c1 partition=1 offset=14 key=seed value=msg-14-1779671718101
+recv group=g1 client=consumer-c1 partition=1 offset=15 key=seed value=msg-15-1779671718211
+recv group=g1 client=consumer-c1 partition=1 offset=16 key=seed value=msg-16-1779671718316
+recv group=g1 client=consumer-c1 partition=1 offset=17 key=seed value=msg-17-1779671718425
+recv group=g1 client=consumer-c1 partition=1 offset=18 key=seed value=msg-18-1779671718533
+recv group=g1 client=consumer-c1 partition=1 offset=19 key=seed value=msg-19-1779671718639
+recv group=g1 client=consumer-c1 partition=1 offset=20 key=seed value=msg-20-1779671718746
+recv group=g1 client=consumer-c1 partition=1 offset=21 key=seed value=msg-21-1779671718855
+recv group=g1 client=consumer-c1 partition=1 offset=22 key=seed value=msg-22-1779671718965
+recv group=g1 client=consumer-c1 partition=1 offset=23 key=seed value=msg-23-1779671719074
+recv group=g1 client=consumer-c1 partition=1 offset=24 key=seed value=msg-24-1779671719179
+recv group=g1 client=consumer-c1 partition=1 offset=25 key=seed value=msg-25-1779671719287
+recv group=g1 client=consumer-c1 partition=1 offset=26 key=seed value=msg-26-1779671719396
+recv group=g1 client=consumer-c1 partition=1 offset=27 key=seed value=msg-27-1779671719507
+recv group=g1 client=consumer-c1 partition=1 offset=28 key=seed value=msg-28-1779671719615
+recv group=g1 client=consumer-c1 partition=1 offset=29 key=seed value=msg-29-1779671719725
+REBALANCE [consumer-c1] revoked  = [cg-demo-2]
+REBALANCE [consumer-c1] assigned = []
+REBALANCE [consumer-c1] assigned = []
+REBALANCE [consumer-c1] revoked  = [cg-demo-1]
+REBALANCE [consumer-c1] assigned = []
+REBALANCE [consumer-c1] assigned = []

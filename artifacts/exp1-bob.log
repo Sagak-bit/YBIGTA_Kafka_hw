@@ -1,0 +1,6 @@
+[producer] bootstrap=kafka-1:19092,kafka-2:19092,kafka-3:19092 topic=partitioning-demo key=bob count=5 acks=all idempotence=true
+sent topic=partitioning-demo partition=0 offset=5 key=bob value=msg-0-1779671657304
+sent topic=partitioning-demo partition=0 offset=6 key=bob value=msg-1-1779671657640
+sent topic=partitioning-demo partition=0 offset=7 key=bob value=msg-2-1779671657745
+sent topic=partitioning-demo partition=0 offset=8 key=bob value=msg-3-1779671657852
+sent topic=partitioning-demo partition=0 offset=9 key=bob value=msg-4-1779671657966

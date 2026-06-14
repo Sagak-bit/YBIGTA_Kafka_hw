@@ -1,0 +1,4 @@
+[consumer] bootstrap=kafka-1:19092,kafka-2:19092,kafka-3:19092 topic=cg-demo group=g1 clientId=consumer-c3 offsetReset=earliest
+REBALANCE [consumer-c3] assigned = []
+REBALANCE [consumer-c3] assigned = [cg-demo-1]
+REBALANCE [consumer-c3] assigned = []
