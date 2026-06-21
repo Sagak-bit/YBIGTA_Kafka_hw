@@ -1,0 +1,14 @@
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :run
+[producer] bootstrap=localhost:9092,localhost:9094,localhost:9096 topic=partitioning-demo key=alice count=5 acks=all idempotence=true
+sent topic=partitioning-demo partition=0 offset=20 key=alice value=msg-0-1779446588833
+sent topic=partitioning-demo partition=0 offset=21 key=alice value=msg-1-1779446589248
+sent topic=partitioning-demo partition=0 offset=22 key=alice value=msg-2-1779446589358
+sent topic=partitioning-demo partition=0 offset=23 key=alice value=msg-3-1779446589466
+sent topic=partitioning-demo partition=0 offset=24 key=alice value=msg-4-1779446589583
+
+BUILD SUCCESSFUL in 2s
+2 actionable tasks: 1 executed, 1 up-to-date
